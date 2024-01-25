@@ -1,0 +1,43 @@
+.newsletter-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form {
+    max-width: 500px; 
+    margin: auto;
+}
+
+.newsletter-input-group input {
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px !important; 
+}
+
+.btn-newsletter {
+    background-color: darkblue; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-newsletter:hover {
+    background-color: #000 !important;
+}
+
+.form-check-label {
+    font-size: 12px;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .newsletter-form {
+        width: 90%;
+    }
+}

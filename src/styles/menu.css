@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+div .menu {
+    align-items: center;
+    box-shadow: 0 3px 3px #C6C6C6;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 0;
+}
+
+.logoImg {
+    width: 15vw;
+    margin-left: 5vw;
+}
+
+.searchImg {
+    width: 2vw;
+    margin-right: 2vw;
+}
+
+.profileImg {
+    width: 3vw;
+    margin-right: 5vw;
+}
+
+.logoImg {
+    margin-right: 5vw;
+}
+
+li {
+    margin: 0 5vw;
+    margin-top: 2vh;
+}
+
+.nav-item:hover .nav-link {
+    color: #007bff;
+}
+
+.custom-toggler:hover {
+    background-color: white !important;
+}

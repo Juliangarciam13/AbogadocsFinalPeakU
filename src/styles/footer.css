@@ -1,0 +1,12 @@
+.nav-link.text-white:hover {
+    color: #00356A !important;
+    text-decoration: none !important;
+}
+
+a img.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+a:hover img.img-fluid {
+    transform: translateX(5px);
+}

@@ -1,0 +1,121 @@
+#mainText {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#BannerStatistics h3,
+#BannerStatistics h2,
+#WCU h2,
+#WCU p,
+#BannerCustomers h1,
+#bannerCustomers h2 {
+    font-size: 3vw;
+}
+
+#mainText h3,
+#mainText h2 {
+    font-size: 2vw;
+}
+
+
+#BannerCustomers p {
+    font-size: 20px;
+}
+
+hr {
+    width: 21vw;
+    border-top: 5px solid #207CF8;
+    opacity: 100%;
+}
+
+#BannerStatistics {
+    margin-top: 15vh;
+}
+
+.card-hover .card-body {
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-hover .card-title {
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 1;
+}
+
+.card-hover .card-text {
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.card-hover:hover .card-title {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.card-hover:hover .card-text {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card-hover:hover .card-body {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.card-text {
+    font-size: 2vw;
+}
+
+.card {
+    height: 62vh;
+}
+
+#BannerStatistics h3 {
+    margin-top: 4vh;
+}
+
+#BannerStatistics p {
+    position: relative;
+    bottom: 6vh;
+}
+
+#WCU h2 {
+    margin-left: 10%;
+}
+
+#WCU p {
+    font-size: 2vw;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+#BannerCustomers {
+    margin-top: 8% !important;
+}
+
+#BannerCustomers h1 {
+    margin-bottom: 5%;
+}
+
+#initialImg {
+    width: 90%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 10px 10px #207CF8;
+}
+
+#mainText {
+    margin-top: 5%;
+}
+
+@media(max-width: 1200px) {
+    #BannerStatistics p {
+        position: relative;
+        bottom: 4vh;
+    }
+}

@@ -1,0 +1,17 @@
+.category-button {
+    background-color: #007bff !important;
+    border-radius: 5px !important;
+}
+
+button {
+    border: none !important;
+}
+
+.fixed-height {
+    height: 80%;
+    object-fit: cover;
+}
+
+#publicado {
+    font-size: 20px !important;
+}
